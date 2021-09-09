@@ -1,0 +1,54 @@
+.app {
+  text-align: center;
+
+  .app-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    height: 4rem;
+    color: white;
+  }
+
+
+  .view-link {
+    text-decoration: underline;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .rdg-cell-action {
+    float: none;
+  }
+
+  .rdg-cell-action-button {
+    margin: auto;
+  }
+
+
+
+
+  .modal {
+
+    .close-button {
+      float: right;
+      position: absolute;
+      right: 1px;
+      top: 1px;
+      color: grey;
+    }
+
+  }
+
+}
+
+.MuiDialog-paperWidthSm {
+  width: 20%;
+
+}
+
+.MuiIconButton-root{
+  float: right;
+}
